@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.773,=D:\Projects\#Default\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.475,=D:\Projects\#Default\Unit7.pas</Transaction>
+    <Transaction>2026.04.15 11:25:40.901,=D:\Projects\#Default\Unit7.pas</Transaction>
+    <Transaction>2026.04.15 11:26:11.415,D:\Projects\TaskManagerFMX\TaskManager.Main.fmx=D:\Projects\#Default\Unit7.fmx</Transaction>
+    <Transaction>2026.04.15 11:26:11.415,D:\Projects\TaskManagerFMX\TaskManager.Main.pas=D:\Projects\#Default\Unit7.pas</Transaction>
+    <Transaction>2026.04.15 11:26:18.514,D:\Projects\TaskManagerFMX\TaskManagerFMX.dproj=D:\Projects\#Default\Project79.dproj</Transaction>
+    <Transaction>2026.04.15 11:28:57.136,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\HGM.ColorUtils.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.159,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Dialogs.DataTransferManager.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.180,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Dialogs.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.363,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Form.Dialog.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.377,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Form.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.486,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Dialog.ColorPicker.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.580,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Dialog.Font.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.688,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Dialog.Input.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.691,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Dialog.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.800,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Dialog.Text.pas</Transaction>
+    <Transaction>2026.04.15 11:28:57.895,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Inner.Dialog.pas</Transaction>
+    <Transaction>2026.04.15 11:28:58.002,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Frame.Inner.InfoBar.pas</Transaction>
+    <Transaction>2026.04.15 11:39:21.619,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Style.pas</Transaction>
+    <Transaction>2026.04.15 11:39:21.631,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Sources\WinUI3.Utils.pas</Transaction>
+    <Transaction>2026.04.15 11:39:32.755,=D:\Projects\TaskManagerFMX\DelphiWinUI3\FMXWindowsDispatch\FMX.Windows.Dispatch.pas</Transaction>
+    <Transaction>2026.04.15 11:39:39.006,=D:\Projects\TaskManagerFMX\DelphiWinUI3\FMXWindowsHint\FMX.Windows.Hints.pas</Transaction>
+    <Transaction>2026.04.15 11:39:46.714,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Fixes\D13\FMX.Menus.pas</Transaction>
+    <Transaction>2026.04.15 11:39:46.731,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Fixes\D13\FMX.Platform.Win.pas</Transaction>
+    <Transaction>2026.04.15 11:40:40.434,=D:\Projects\TaskManagerFMX\DelphiWinUI3\Fixes\D13\FMX.StyledContextMenu.pas</Transaction>
+  </Transactions>
+</BorlandProject>

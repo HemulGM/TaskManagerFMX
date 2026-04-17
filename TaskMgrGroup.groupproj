@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BF2AFE9E-E012-418F-806B-0D68B68FCA72}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TaskManagerFMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DelphiWinUI3\Demo\WinUI3Style.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TaskManagerFMX">
+        <MSBuild Projects="TaskManagerFMX.dproj"/>
+    </Target>
+    <Target Name="TaskManagerFMX:Clean">
+        <MSBuild Projects="TaskManagerFMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TaskManagerFMX:Make">
+        <MSBuild Projects="TaskManagerFMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="WinUI3Style">
+        <MSBuild Projects="DelphiWinUI3\Demo\WinUI3Style.dproj"/>
+    </Target>
+    <Target Name="WinUI3Style:Clean">
+        <MSBuild Projects="DelphiWinUI3\Demo\WinUI3Style.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="WinUI3Style:Make">
+        <MSBuild Projects="DelphiWinUI3\Demo\WinUI3Style.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TaskManagerFMX;WinUI3Style"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TaskManagerFMX:Clean;WinUI3Style:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TaskManagerFMX:Make;WinUI3Style:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
